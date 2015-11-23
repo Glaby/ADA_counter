@@ -19,8 +19,9 @@ public class ADA_CITAC {
        counter minutes = new counter(60, null);
        counter seconds = new counter(60, minutes);
        while(minutes.num < 60){
+             System.out.println(minutes.num + ":" + seconds.num);
              seconds.raise();
-             System.out.println(minutes.num + "::" + seconds.num);
+             
            
        }
      
